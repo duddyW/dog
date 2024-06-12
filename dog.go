@@ -1,9 +1,9 @@
 package dog
 
 import(
-	"string"
+	"strings"
 )
 
 func WhenGrowUp(s string) string {
-	return "when a puppy grows up it says" + string.ToUpper(s)
+	return "when a puppy grows up it says" + strings.ToUpper(s)
 }
